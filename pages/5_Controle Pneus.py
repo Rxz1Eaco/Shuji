@@ -3,7 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Pneus 2° Vida", page_icon="🛞")
-df = pd.read_excel("MottuSâoLuís.xlsx",sheet_name="PneusSegundaVida")
+df = pd.read_excel("SLS.xlsx",sheet_name="PneusSegundaVida")
 st.title('Análise de Pneus - Borracharia')
 st.write('Dados dos pneus recolhidos em diferentes situações:')
 st.dataframe(df)
